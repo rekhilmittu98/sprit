@@ -1,0 +1,15 @@
+div {
+  width: 205px;
+  height: 255px;
+  background-image: url("tr.png");
+  animation: rekhil 1s steps(6) infinite;
+}
+
+@keyframes rekhil {
+  from {
+    background-position-x: 0px;
+  }
+  to {
+    background-position-x: -655px;
+  }
+}
